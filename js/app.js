@@ -3,7 +3,7 @@ const gridSizePrompt = prompt('What grid size should we use?')
 const inputGridSize = document.querySelectorAll('.grid-size-range');
 
 function makeGrid(gridSize) {
-    let cellSize = (65 / gridSize) + 'vw';
+    let cellSize = (40 / gridSize) + 'vh';
 
     container.style.setProperty('--grid-rows', gridSize);
     container.style.setProperty('--grid-columns', gridSize);

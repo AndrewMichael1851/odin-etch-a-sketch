@@ -13,6 +13,11 @@
     align-items: center;
 }
 
+.title {
+    text-align: center;
+    margin: 1em;
+}
+
 #grid {
     display: grid;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
@@ -24,4 +29,13 @@
     width: var(--cell-width);
     height: var(--cell-height);
     border: 1px solid black;
+}
+
+.grid-size-selector {
+    display: flex;
+    margin: 1em 0;
+}
+
+.grid-size-selector-element {
+    flex: 1;
 }

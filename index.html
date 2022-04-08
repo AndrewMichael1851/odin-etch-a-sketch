@@ -10,9 +10,21 @@
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-        <div class="main">
+        <!-- Main Content -->
+        <main class="main">
+            <h1 class="title">Odin Etch-a-Sketch</h1>
+            <div id="settings">
+                <button id="bw-button">Black and White</button>
+                <button id="rainbow-button">Rainbow</button>
+                <button id="eraser-button">Eraser</button>
+                <button id="clear-button">Clear All</button>
+                <div class="grid-size-selector">
+                    <p class="grid-size-selector-element">Grid Size:</p>
+                    <input id="grid-size-input" class="grid-size-selector-element" type="number" value="16" min="1" max="32">
+                </div>
+            </div>
             <div id="grid"></div>
-        </div>
+        </main>
 
         <!-- JS Files -->
         <script type="text/javascript" src="./js/app.js"></script>
