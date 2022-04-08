@@ -1,5 +1,6 @@
 const container = document.getElementById('grid');
 const gridSizePrompt = prompt('What grid size should we use?')
+const inputGridSize = document.querySelectorAll('.grid-size-range');
 
 function makeGrid(gridSize) {
     let cellSize = (65 / gridSize) + 'vw';
