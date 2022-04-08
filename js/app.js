@@ -1,4 +1,4 @@
-
+/******** Version 2.0 ********/
 // Set the button IDs for reference later.
 const blkButton = document.getElementById('black-button');
 const rgbButton = document.getElementById('rainbow-button');
@@ -131,7 +131,7 @@ window.onLoad = () => {
 }
 
 
-
+/******** Version 1.0 ********/
 /*
 const container = document.getElementById('grid');
 const gridSizePrompt = prompt('What grid size should we use?')
