@@ -1,3 +1,4 @@
+/* Structural CSS */
 :root {
     --grid-rows: 1;
     --grid-columns: 1;
@@ -18,28 +19,46 @@
     margin: 1em;
 }
 
-#grid {
+.settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.grid {
     display: grid;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-columns), 1fr);
+    margin: 1em;
+}
+
+/* Aesthetic CSS */
+.grid,
+.grid-cell {
     border: 1px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 .grid-cell {
     width: var(--cell-width);
     height: var(--cell-height);
-    border: 1px solid black;
 }
 
-#grid-size-selector {
+.grid-size-selector {
     display: flex;
-    margin: 1em 0;
+    flex-direction: column;
+    gap: 5px;
 }
 
-#grid-size-selector-element {
-    flex: 1;
+.grid-size-selector p,
+.grid-size-form {
+    text-align: center;
 }
 
+/* Variable Classes */
 .active {
-    background-color: #3b4145;
+    background-color: wheat;
 }
