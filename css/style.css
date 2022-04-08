@@ -31,11 +31,15 @@
     border: 1px solid black;
 }
 
-.grid-size-selector {
+#grid-size-selector {
     display: flex;
     margin: 1em 0;
 }
 
-.grid-size-selector-element {
+#grid-size-selector-element {
     flex: 1;
+}
+
+.active {
+    background-color: #3b4145;
 }
