@@ -1,0 +1,43 @@
+###################
+# Compiled Source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+###################
+# Temporary Files #
+###################
+*.swp
+*.swo
+*~
+
+############
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+########
+# Logs #
+########
+*.log
+
+######################
+# OS Generated Files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+*.lock
