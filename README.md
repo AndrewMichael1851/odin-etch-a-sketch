@@ -52,3 +52,6 @@ This project primarily uses basic Javascript skills such as functions and loops.
 
 ## Reflections
 N/A
+
+## View Project
+https://andrewmichael1851.github.io/odin-etch-a-sketch/
