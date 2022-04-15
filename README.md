@@ -51,7 +51,7 @@ If you get totally stuck, drop by the chatroom. Someone will be there to point y
 This project primarily uses basic Javascript skills such as functions and loops. I will also practice git basics such as branches and merging.
 
 ## Reflections
-N/A
+This was a fun little project, especially the logic to make the grid and specifically using CSS grid for the first time. The actual JS itself wasn't too hard, and most of the difficulty came from just practicing click events.
 
 ## View Project
 https://andrewmichael1851.github.io/odin-etch-a-sketch/
